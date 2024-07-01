@@ -4,3 +4,11 @@ server:
 spring:
   application:
     name: config-server
+
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/joaquinBrassinne/final-tp-microservices.git
+          
