@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 81
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+
